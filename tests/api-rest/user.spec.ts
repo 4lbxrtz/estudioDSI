@@ -1,7 +1,7 @@
 import { describe, test, beforeEach, expect } from "vitest";
 import request from "supertest";
-import { app } from "../src/api-rest/app.js";
-import { User } from "../src/api-rest/models/user.js";
+import { app } from "../../src/api-rest/app.js";
+import { User } from "../../src/api-rest/models/user.js";
 
 const firstUser = {
   name: "Alberto Oria",
