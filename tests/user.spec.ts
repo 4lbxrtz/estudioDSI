@@ -43,10 +43,10 @@ describe("POST /users", () => {
 
 describe("GET /users", () => {
   test("Should get a user by username", async () => {
-    await request(app).get("/users?username=esegredo").expect(200);
+    await request(app).get("/users?username=4lbxrtz").expect(200);
   });
 
   test("Should not find a user by username", async () => {
-    await request(app).get("/users?username=edusegre").expect(404);
+    await request(app).get("/users?username=jojopyun").expect(404);
   });
 });
